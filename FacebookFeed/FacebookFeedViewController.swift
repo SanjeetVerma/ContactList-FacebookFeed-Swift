@@ -69,7 +69,7 @@ class FacebookFeedViewController: UIViewController,UICollectionViewDelegate,UICo
        
     }
     override func viewWillAppear(animated: Bool) {
-        self.navigationController!.navigationBar.topItem!.title = "";
+        self.navigationController!.navigationBar.topItem!.title = ""
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
